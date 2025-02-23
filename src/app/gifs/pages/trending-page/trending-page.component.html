@@ -4,7 +4,7 @@
 
 <div
   class="h-screen grid grid-cols-2 md:grid-cols-4 gap-4 py-5 overflow-y-scroll"
-  (scroll)="onScroll($event)"
+  (scroll)="onScroll()"
   #groupDiv
 >
   @for(group of gifsServices.trendingGifsGroup(); track $index){
